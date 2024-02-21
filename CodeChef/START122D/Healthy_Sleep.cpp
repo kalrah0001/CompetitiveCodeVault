@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int sleep;
+    cin>>sleep;
+    if (sleep<8) cout<<"LESS"<<endl;
+    else if (sleep==8) cout<<"PERFECT"<<endl;
+    else cout<<"MORE"<<endl;
+}
